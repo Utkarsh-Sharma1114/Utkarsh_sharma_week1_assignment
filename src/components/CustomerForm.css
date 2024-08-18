@@ -1,0 +1,82 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: lightskyblue;
+}
+
+.customer-feedback h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  color: navy;
+}
+
+.customer-feedback .group{
+  margin-bottom: 15px;
+}
+
+.customer-feedback label{
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.customer-feedback input[text = "text"],
+.customer-feedback input[text = "email"],
+.customer-feedback textarea,
+.customer-feedback .rating-group{
+  width: 100%;
+}
+
+.customer-feedback input[text = "text"],
+.customer-feedback input[text = "email"],
+.customer-feedback textarea {
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+.customer-feedback .rating-group{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.customer-feedback .rating-group label{
+  display: flex;
+  align-items: center;
+}
+
+.customer-feedback .rating-group input[type = 'radio'] {
+  margin-right: 5px;
+}
+.customer-feedback .error{
+  border-color: red;
+}
+
+.customer-feedback .error {
+  color: red;
+  font-size: 0.768em;
+  margin: 5px;
+}
+
+.customer-feedback button{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(0, 123, 255);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.customer-feedback button:hover{
+  background-color: #0056b3;
+}
